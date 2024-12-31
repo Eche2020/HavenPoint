@@ -14,11 +14,11 @@ const Rooms = () => {
 						subtitle="Explore Our"
 					/>
 					<div className="row g-4">
-						{roomItems.map((item) => (
+						{roomItems.map((item, roomindex) => (
 							<div
 								className="col-lg-4 col-md-6 wow fadeInUp"
 								data-wow-delay="0.1s"
-								key={item.id}>
+								key={roomindex}>
 								<div className="room-item shadow rounded overflow-hidden">
 									<div className="position-relative">
 										<img className="img-fluid" src={item.img} alt="img" />
@@ -32,8 +32,8 @@ const Rooms = () => {
 											<div className="ps-2">{item.star}</div>
 										</div>
 										<div className="d-flex mb-3">
-											{facility.map((item) => (
-												<small key={item.id} className="border-end me-3 pe-3">
+											{facility.map((item, facilityIndex) => (
+												<small key={facilityIndex} className="border-end me-3 pe-3">
 													{item.icon}
 													{item.quantity} {item.facility}
 												</small>

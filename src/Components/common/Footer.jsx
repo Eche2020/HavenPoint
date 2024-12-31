@@ -35,7 +35,7 @@ const Footer = () => {
 							))}
 							<div className="d-flex pt-2">
 								{socialIcons.slice(0, 4).map((val, index) => (
-									<a className="btn btn-outline-light btn-social" href="">
+									<a className="btn btn-outline-light btn-social" href="#" key={index}>
 										{val.icon}
 									</a>
 								))}

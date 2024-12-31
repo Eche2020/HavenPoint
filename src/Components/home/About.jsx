@@ -1,9 +1,8 @@
-import React from 'react'
-import { about } from '../data/Data';
-
+import React from "react";
+import { about } from "../data/Data";
 
 const About = () => {
-  return (
+	return (
 		<>
 			<div className="container-xxl py-5">
 				<div className="container">
@@ -71,7 +70,7 @@ const About = () => {
 									<img
 										className="img-fluid rounded w-75 wow zoomIn"
 										data-wow-delay="0.7s"
-										src="/public/images/about-4.jpg"
+										src="/images/about-4.jpg"
 									/>
 								</div>
 							</div>
@@ -81,6 +80,6 @@ const About = () => {
 			</div>
 		</>
 	);
-}
+};
 
-export default About
+export default About;

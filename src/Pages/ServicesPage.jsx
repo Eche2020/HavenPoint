@@ -7,7 +7,7 @@ import Sliders from '../Components/home/Sliders';
 const ServicesPage = () => {
   return (
 		<>
-			<div style={{ marginBottom: "8rem" }}>
+			<div style={{ marginBottom: "5rem" }}>
 				<Heading heading="Services" title="Home" subtitle="Services" />
 				<Service />
 				<Sliders />

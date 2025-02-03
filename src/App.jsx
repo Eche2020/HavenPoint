@@ -4,6 +4,7 @@ import "./css/style.css";
 import "./css/animate.css";
 import "./css/animate.min.css";
 import "./App.css";
+
 import {
 	Home,
 	Booking,

@@ -268,34 +268,33 @@ export const testimonial = [
 
 export const roomItems = [
 	{
-		
+		id: "room-junior-1",
 		img: "/images/room-1.jpg",
 		price: "$110/night",
 		name: "Junior Suit",
 		star: [
-			<small className="fa fa-star text-primary"></small>,
-			<small className="fa fa-star text-primary"></small>,
-			<small className="fa fa-star text-primary"></small>,
-			<small className="fa fa-star text-primary"></small>,
-			<small className="fa fa-star text-primary"></small>,
+			<small key="star-1" className="fa fa-star text-primary"></small>,
+			<small key="star-2" className="fa fa-star text-primary"></small>,
+			<small key="star-3" className="fa fa-star text-primary"></small>,
+			<small key="star-4" className="fa fa-star text-primary"></small>,
+			<small key="star-5" className="fa fa-star text-primary"></small>,
 		],
 		description:
 			"Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet lorem.",
 		yellowbtn: "View Detail",
 		darkbtn: "book now",
 	},
-
 	{
-		
+		id: "room-executive-1",
 		img: "/images/room-2.jpg",
 		price: "$110/night",
 		name: "Executive Suite",
 		star: [
-			<small className="fa fa-star text-primary"></small>,
-			<small className="fa fa-star text-primary"></small>,
-			<small className="fa fa-star text-primary"></small>,
-			<small className="fa fa-star text-primary"></small>,
-			<small className="fa fa-star text-primary"></small>,
+			<small key="star-1" className="fa fa-star text-primary"></small>,
+			<small key="star-2" className="fa fa-star text-primary"></small>,
+			<small key="star-3" className="fa fa-star text-primary"></small>,
+			<small key="star-4" className="fa fa-star text-primary"></small>,
+			<small key="star-5" className="fa fa-star text-primary"></small>,
 		],
 		description:
 			"Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet lorem.",
@@ -303,16 +302,16 @@ export const roomItems = [
 		darkbtn: "book now",
 	},
 	{
-		
+		id: "room-deluxe-1",
 		img: "/images/room-3.jpg",
 		price: "$110/night",
 		name: "Super Deluxe",
 		star: [
-			<small className="fa fa-star text-primary"></small>,
-			<small className="fa fa-star text-primary"></small>,
-			<small className="fa fa-star text-primary"></small>,
-			<small className="fa fa-star text-primary"></small>,
-			<small className="fa fa-star text-primary"></small>,
+			<small key="star-1" className="fa fa-star text-primary"></small>,
+			<small key="star-2" className="fa fa-star text-primary"></small>,
+			<small key="star-3" className="fa fa-star text-primary"></small>,
+			<small key="star-4" className="fa fa-star text-primary"></small>,
+			<small key="star-5" className="fa fa-star text-primary"></small>,
 		],
 		description:
 			"Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet lorem.",
@@ -322,18 +321,21 @@ export const roomItems = [
 ];
 
 export const facility = [
-	{
-		icon: <i className="fa fa-bed text-primary me-2"></i>,
-		quantity: 3,
-		facility: "bed",
-	},
-	{
-		icon: <i className="fa fa-bath text-primary me-2"></i>,
-		quantity: 2,
-		facility: "bath",
-	},
-	{
-		icon: <i className="fa fa-wifi text-primary me-2"></i>,
-		facility: "Wifi",
-	},
+  {
+    id: 'facility-bed-1',
+    icon: <i className="fa fa-bed text-primary me-2"></i>,
+    quantity: 3,
+    facility: "bed",
+  },
+  {
+    id: 'facility-bath-1', 
+    icon: <i className="fa fa-bath text-primary me-2"></i>,
+    quantity: 2,
+    facility: "bath",
+  },
+  {
+    id: 'facility-wifi-1',
+    icon: <i className="fa fa-wifi text-primary me-2"></i>,
+    facility: "Wifi",
+  },
 ];

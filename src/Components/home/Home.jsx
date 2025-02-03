@@ -6,7 +6,7 @@ import Services from "./Service";
 import Rooms from "./Rooms";
 import Sliders from "./Sliders";
 import Teams from "./Team";
-import VideoPlayer from './videoPlayer';
+import VideoPlayer from './VideoPlayer';
 import Video from './Video';
 
 
